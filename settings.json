@@ -1,7 +1,10 @@
 {
-  ".pdf": "/Documents",
-  ".png": "/Pictures",
-  ".jpg": "/Pictures",
-  ".mp3": "/Music",
-  ".mp4": "/Videos"
+  "download": "/Downloads",
+  "destinations": {
+    ".pdf": "/Documents",
+    ".png": "/Pictures",
+    ".jpg": "/Pictures",
+    ".mp3": "/Music",
+    ".mp4": "/Videos"
+  }
 }
