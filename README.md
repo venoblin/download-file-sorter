@@ -44,3 +44,21 @@ Download File Sorter is a Python script designed to automate the process of orga
 * Python
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+## Getting Started
+1. Create `settings.json` file in the project root directory
+2. Add directories as so:
+```json
+{
+  "downloads": "download directory",
+  "destinations": {
+    ".file_extension1": "destination directory",
+    ".file_extension2": "destination directory",
+    ".file_extension3": "destination directory"
+  }
+}
+```
+3. Run script with `python app.py`
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
