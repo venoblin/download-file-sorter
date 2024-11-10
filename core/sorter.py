@@ -7,5 +7,6 @@ def sort():
 
   for file in downloads:
     file_extension = os.path.splitext(file)[1].lower()
-    
-    print(file_extension)
+
+    if file_extension in settings['destinations']:
+      os.system(f'mv {settings['downloads']}/{file} {settings['destinations'][file_extension]}')
