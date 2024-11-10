@@ -1,8 +1,10 @@
 import os
-from core.settings import get_settings
+from settings import get_settings
 
 def sort():
   settings = get_settings()
-  downloads = os.listdir(settings['downloads'])
+  downloads = os.listdir(path)
 
-  print(downloads)
+  print(path)
+
+sort()
