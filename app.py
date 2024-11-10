@@ -1,6 +1,7 @@
+from core.sorter import sort
 
 def main():
-  pass
+  sort()
 
-if __name__ == 'main':
+if __name__ == '__main__':
   main()

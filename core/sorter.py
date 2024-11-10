@@ -1,10 +1,11 @@
 import os
-from settings import get_settings
+from core.settings import get_settings
 
 def sort():
   settings = get_settings()
   downloads = os.listdir(settings['downloads'])
 
-  print(downloads)
-
-sort()
+  for file in downloads:
+    file_extension = os.path.splitext(file)[1].lower()
+    
+    print(file_extension)
