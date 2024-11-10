@@ -16,7 +16,7 @@ def sort():
       destination_path = settings['destinations'][file_extension]
 
       os.system(f'mv {file_path} {destination_path}')
-  if file_count >= 0:
+  if file_count > 0:
     print(f'Moved {file_count} files!')
   else:
     print('No files were moved!')
