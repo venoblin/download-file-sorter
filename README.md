@@ -51,11 +51,11 @@ Download File Sorter is a Python script designed to automate the process of orga
 2. Add directories as so:
 ```json
 {
-  "downloads": "download directory",
+  "downloads": "/home/user/download-directory",
   "destinations": {
-    ".file_extension1": "destination directory",
-    ".file_extension2": "destination directory",
-    ".file_extension3": "destination directory"
+    ".pdf": "/home/user/destination",
+    ".png": "/home/user/destination",
+    ".mp4": "/home/user/destination"
   }
 }
 ```
