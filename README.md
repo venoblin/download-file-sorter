@@ -1,64 +1,65 @@
-<a name="readme-top"></a>
-
-[LinkedIn](https://www.linkedin.com/in/jonathanvillagomezhernandez/) |
-[Website](https://www.jonweb.dev/)
-
-<!-- PROJECT LOGO -->
-<br />
+<br/>
 <div align="center">
-  
-  <h1 align="center">Download File Sorter</h3>
-
-  <p align="center">
-    Sorts files from download directory into user specified directories in a Unix based system!
-  </p>
+<a href="https://github.com/user/repo">
+<img src=".project-images/project-logo.png" alt="Logo" height="128px">
+</a>
+<h3 align="center">Download File Sorter</h3>
+<p align="center">
+Sorts files from download directory into user specified directories in a Unix based system! 
+<br/>
+<br/>
+</p>
 </div>
 
+Table of Contents
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-  </ol>
-</details>
+- [About The Project](#about-the-project)
+  - [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Installation](#installation)
 
-
-
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
 Download File Sorter is a Python script designed to automate the process of organizing downloaded files into predefined directories. By analyzing file extensions, the script intelligently sorts files into appropriate categories, such as Documents, Images, Videos, Music, and more. This saves you time and effort, keeping your downloads folder neat and organized.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 ### Built With
 
-* Python
+This project was built with the following technologies:
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
 
-<!-- GETTING STARTED -->
 ## Getting Started
-1. Create `settings.json` file in the project root directory
-2. Add directories as so:
-```json
-{
-  "downloads": "/home/user/download-directory",
-  "destinations": {
-    ".pdf": "/home/user/destination",
-    ".png": "/home/user/destination",
-    ".mp4": "/home/user/destination"
-  }
-}
-```
-3. Run script with `python app.py`
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Installation
+
+1. **Clone the repository** 
+
+  ```sh
+  git clone git@github.com:venoblin/download-file-sorter.git
+  ```
+
+2. **Create `settings.json` file in the project root directory**
+
+  ```sh
+  cd download-file-sorter
+  touch settings.json
+  ```
+
+3. **Modify `settings.json`** 
+
+  ```json
+  {
+    "downloads": "/path/to/Downloads",
+    "destinations": {
+      ".file-extension": "/path/to/destination",
+      ".file-extension": "/path/to/destination",
+      ".file-extension": "/path/to/destination"
+    }
+  }
+  ```
+
+4. **Run `app.py`** 
+  
+  ```sh
+  python3 app.py
+  ```
