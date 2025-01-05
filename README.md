@@ -25,7 +25,7 @@ Download File Sorter is a Python script designed to automate the process of orga
 ### Built With
 
 This project was built with the following technologies:
-- ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
+- <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff" alt="Python" />
 
 ## Getting Started
 
