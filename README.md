@@ -20,7 +20,9 @@ Table of Contents
 
 ## About The Project
 
-Download File Sorter is a Python script designed to automate the process of organizing downloaded files into predefined directories. By analyzing file extensions, the script intelligently sorts files into appropriate categories, such as Documents, Images, Videos, Music, and more. This saves you time and effort, keeping your downloads folder neat and organized.
+Download File Sorter is a Python script designed to automate the process of organizing downloaded files into predefined directories. 
+By analyzing file extensions, the script intelligently sorts files into user-defined directories, such as Documents, Images, Videos, Music, 
+and more. This saves you time and effort, keeping your downloads folder neat and organized.
 
 ### Built With
 
