@@ -1,14 +1,14 @@
-def clean_path(path):
-  new_path = ''
+def clean_str(str):
+  new_str = ''
 
-  for letter in path:    
+  for letter in str:    
     if letter == ' ':
-      new_path += '\\ '
+      new_str += '\\ '
     elif letter == '(':
-      new_path += '\\('
+      new_str += '\\('
     elif letter == ')':
-      new_path += '\\)'
+      new_str += '\\)'
     else:
-      new_path += letter
+      new_str += letter
 
-  return new_path
+  return new_str

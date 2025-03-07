@@ -1,6 +1,6 @@
 import os
-from core.settings import get_settings
-from core.utils import clean_path
+from settings import get_settings
+from utils import clean_str
 
 def sort():
   settings = get_settings()
@@ -12,7 +12,7 @@ def sort():
 
     if file_extension in settings['destinations']:
       file_count += 1
-      file_path = clean_path(f"{settings['downloads']}/{file}")
+      file_path = clean_str(f"{settings['downloads']}/{file}")
       destination_path = settings['destinations'][file_extension]
 
       os.system(f"mv {file_path} {destination_path}")
@@ -22,3 +22,13 @@ def sort():
     print(f"Moved {file_count} files!")
   else:
     print('No files were moved!')
+
+def find():
+  settings = get_settings()
+  downloads = os.listdir(settings['downloads'])
+
+  for file in downloads:
+    if 'substring' in file:
+      print(file)
+
+find()
