@@ -49,6 +49,7 @@ This project was built with the following technologies:
    ```
 
 3. **Modify `settings.json`**
+
    ```json
    {
      "downloads": "/path/to/Downloads",
