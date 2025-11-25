@@ -63,6 +63,7 @@ This project was built with the following technologies:
 ## Usage
 
 - **Run `app.py`**
+
   ```sh
   python3 app.py
   ```
